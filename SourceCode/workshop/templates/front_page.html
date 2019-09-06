@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+      <style >
+        .footer-distributed{
+    	background-color: #292c2f;
+    	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    	box-sizing: border-box;
+    	width: 100%;
+    	text-align: left;
+    	font: bold 16px sans-serif;
+
+    	padding: 55px 50px;
+    	margin-top: 80px;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+    	display: inline-block;
+    	vertical-align: top;
+    }
+
+    /* Footer left */
+
+    .footer-distributed .footer-left{
+    	width: 40%;
+    }
+
+    /* The company logo */
+
+    .footer-distributed h3{
+    	color:  #ffffff;
+    	font: normal 36px 'Cookie', cursive;
+    	margin: 0;
+    }
+
+    .footer-distributed h3 span{
+    	color:  #5383d3;
+    }
+
+    /* Footer links */
+
+    .footer-distributed .footer-links{
+    	color:  #ffffff;
+    	margin: 20px 0 12px;
+    	padding: 0;
+    }
+
+    .footer-distributed .footer-links a{
+    	display:inline-block;
+    	line-height: 1.8;
+    	text-decoration: none;
+    	color:  inherit;
+    }
+
+    .footer-distributed .footer-company-name{
+    	color:  #8f9296;
+    	font-size: 14px;
+    	font-weight: normal;
+    	margin: 0;
+    }
+
+    /* Footer Center */
+
+    .footer-distributed .footer-center{
+    	width: 35%;
+    }
+
+    .footer-distributed .footer-center i{
+    	background-color:  #33383b;
+    	color: #ffffff;
+    	font-size: 25px;
+    	width: 38px;
+    	height: 38px;
+    	border-radius: 50%;
+    	text-align: center;
+    	line-height: 42px;
+    	margin: 10px 15px;
+    	vertical-align: middle;
+    }
+
+    .footer-distributed .footer-center i.fa-envelope{
+    	font-size: 17px;
+    	line-height: 38px;
+    }
+
+    .footer-distributed .footer-center p{
+    	display: inline-block;
+    	color: #ffffff;
+    	vertical-align: middle;
+    	margin:0;
+    }
+
+    .footer-distributed .footer-center p span{
+    	display:block;
+    	font-weight: normal;
+    	font-size:14px;
+    	line-height:2;
+    }
+
+    .footer-distributed .footer-center p a{
+    	color:  #5383d3;
+    	text-decoration: none;;
+    }
+
+
+    /* Footer Right */
+
+    .footer-distributed .footer-right{
+    	width: 20%;
+    }
+
+    .footer-distributed .footer-company-about{
+    	line-height: 20px;
+    	color:  #92999f;
+    	font-size: 13px;
+    	font-weight: normal;
+    	margin: 0;
+    }
+
+    .footer-distributed .footer-company-about span{
+    	display: block;
+    	color:  #ffffff;
+    	font-size: 14px;
+    	font-weight: bold;
+    	margin-bottom: 20px;
+    }
+
+    .footer-distributed .footer-icons{
+    	margin-top: 25px;
+    }
+
+    .footer-distributed .footer-icons a{
+    	display: inline-block;
+    	width: 35px;
+    	height: 35px;
+    	cursor: pointer;
+    	background-color:  #33383b;
+    	border-radius: 2px;
+
+    	font-size: 20px;
+    	color: #ffffff;
+    	text-align: center;
+    	line-height: 35px;
+
+    	margin-right: 3px;
+    	margin-bottom: 5px;
+    }
+
+    /* If you don't want the footer to be responsive, remove these media queries */
+
+    @media (max-width: 880px) {
+
+    	.footer-distributed{
+    		font: bold 14px sans-serif;
+    	}
+
+    	.footer-distributed .footer-left,
+    	.footer-distributed .footer-center,
+    	.footer-distributed .footer-right{
+    		display: block;
+    		width: 100%;
+    		margin-bottom: 40px;
+    		text-align: center;
+    	}
+
+    	.footer-distributed .footer-center i{
+    		margin-left: 0;
+    	}
+
+    }
+
+      .col-sm8{
+        height:60%;
+        width:70%;
+
+      }
+      }
+      .pp{
+
+                     font-family: "Comic Sans MS", Times, serif;
+                      color: red;
+                    }
+                    h1{
+                      color:white;
+                    }
+
+
+
+
+            body{
+                margin-top: 0px;
+                background:url(https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80);
+                background-repeat:no repeat;
+                background-size:cover;
+                 }
+
+    </style>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/demo.css">
+  <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  </head>
+
+
+  <body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <span>
+      <img src="{% static 'logo2.png' %}" alt="logo" height="110px" width="200px" href="index/" >
+      </span>
+  <!--  <div class="pp">
+    <a class="navbar-brand" href="#" ><font size="5px" color="red"><em>BOLLYWOOD GUPSHAP</em></font></a>
+  </div>-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="./../home_page/">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./../login_page/">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./../upcoming/">Upcoming Movies</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Movies
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./../top_movies/">Box Office</a>
+            <a class="dropdown-item" href="./../top_rated/">High Rated</a>
+            <div class="dropdown-divider"></div>
+
+          </div>
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my- my-sm-10" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+
+
+
+  <center>
+
+
+   </center>
+   <center>
+   <div class="col-sm8 mt-5 mb-5">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    </ol>
+
+    <div class="carousel-inner" >
+    <div class="carousel-item active">
+
+     <center>
+    <a href="./../srk/"><img src="{% static 'srk2.jpg' %}" class="d-block w-100 " alt="..." height="600px" ></a>
+      </center>
+    </div>
+    <div class="carousel-item">
+      <center>
+      <a href="./../Disha/"><img src="{% static 'Disha.jpg' %}" class="d-block w-100 " alt="..." height="600px" ></a>
+      </center>
+    </div>
+    <div class="carousel-item">
+       <center>
+      <a href="./../akshay/"><img src="{% static 'akshay1.jpg' %}" class="d-block w-100 " alt="..." height="600px" ></a>
+      </center>
+
+    </div>
+    <div class="carousel-item">
+      <center>
+      <a href="./../shraddha/"><img src="{% static 'shraddha.jpg' %}" class="d-block w-100 " alt="..." height="600px" >
+      </center>
+    </div>
+    <div class="carousel-item">
+      <center>
+      <a href="./../karthik/"><img src="{% static 'kartik.jpeg' %}" class="d-block w-100 " alt="..."  height="600px"></a>
+      </center>
+    </div>
+    <div class="carousel-item">
+      <center>
+      <a href="./../Deepika/"><img src="{% static 'deepika.jpg' %}" class="d-block w-100 " alt="..." height="600px"></a>
+      </center>
+    </div>
+    <div class="carousel-item">
+      <center>
+      <a href="./../ayushmaan/"><img src="{% static 'ayushmaan.jpg' %}" class="d-block w-100 " alt="..." height="600px" ></a>
+      </center>
+
+    </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+    </a>
+    </div>
+    </div>
+</center>
+
+<br><br><marquee scrollamount="20"><h1>Welcome to Bollywood Talks </h1></marquee>
+{%include 'footer.html'%}
+
+
+
+  </body>
+</html>

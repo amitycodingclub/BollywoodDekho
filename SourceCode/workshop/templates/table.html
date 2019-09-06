@@ -1,0 +1,113 @@
+<html>
+{% load static %}
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+</head>
+<style>
+table{
+width:20%;
+}
+h2{
+font-family:Verdana;
+}
+body{
+  background:url(http://eskipaper.com/images/gray-wallpaper-21.jpg);
+}
+</style>
+
+
+
+<body>
+  {% include 'nav_bar.html'%}
+<center>  <img src="https://image.flaticon.com/icons/png/512/31/31087.png" alt="" width=20%" height="40%"></center>
+<table class="table table-striped mt-5" border="5">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Release Date</th>
+      <th scope="col">Movie Name</th>
+      <th scope="col">Rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>06 September 2019		</td>
+      <td>Chhichhore</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>2 September 2019	</td>
+      <td>Pehlwaan</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>13 September 2019</td>
+      <td>Bhangra Paa Le</td>
+      <td>0</td>
+    </tr>
+	 <tr>
+      <th scope="row">4</th>
+      <td>13 September 2019	</td>
+      <td>Section 375</td>
+      <td>72</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>13 September 2019	</td>
+      <td>Dream Gir</td>
+      <td>77</td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>20 September 2019</td>
+      <td>The Zoya Factor</td>
+      <td>57</td>
+    </tr>
+  </tbody>
+</table><br><br>
+<div class="container">
+<div class="jumbotron">
+<div class="container">
+<center>
+	<u><h2>Some more upcoming Movies</h2></center><br><br></u>
+<b>
+20 September 2019	Pal Pal Dil Ke Paas	<br>
+20 September 2019	Prassthanam	<br>
+27 September 2019	Main Zaroor Aaunga	<br>
+27 September 2019	Jhalki	<br>
+27 September 2019	Little Baby	<br>
+Expected in October 2019	Jhund<br>
+Expected in October 2019	Dance Bar<br>
+Expected in October 2019	Happy Hardy And Heer	<br>
+Expected in October 2019	Commando 3	<br>
+02 October 2019	War	<br>
+02 October 2019	Syeraa Narasimha Reddy<br>
+11 October 2019	The Sky Is Pink	<br>
+11 October 2019	Satellite Shankar<br>
+11 October 2019	Lootcase	<br>
+11 October 2019	Laal Kaptaan<br>
+11 October 2019	Hotel Mumbai	<br>
+18 October 2019	P Se Pyaar F Se Faraar	<br>
+18 October 2019	Jacqueline I Am Coming	<br>
+18 October 2019	Dosti Zindabad	<br>
+25 October 2019	Made In China<br>
+25 October 2019	Housefull 4	<br>
+25 October 2019	Saand Ki Aankh	<br>
+01 November 2019	Bypass Road	<br>
+08 November 2019	Shikara <br>
+08 November 2019	Marjaavaan	<br>
+08 November 2019	Pagalpanti	<br>
+15 November 2019	BHOOT: Part One – The Haunted Ship	<br>
+22 November 2019	Bala
+</div>
+	</div>
+	</div>
+  {% include 'footer.html'%}
+</body>
+</html>
